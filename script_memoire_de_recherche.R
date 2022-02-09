@@ -15,11 +15,8 @@ library(matrixStats)
 library(reshape2)
 library(dplyr)
 
-# chargement emplacement
-setwd("/Users/hugocarlin/Documents/Université/Master SEP/Mémoire/Base de données")
-
 # chargement xlsx
-database <- read.xlsx('database.xlsx',startRow = 2)
+database <- read.xlsx(choose.files(),startRow = 2)
 
 
 
