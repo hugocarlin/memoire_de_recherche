@@ -16,7 +16,7 @@ library(reshape2)
 library(dplyr)
 
 # chargement xlsx
-database <- read.xlsx(choose.files(),startRow = 2)
+database <- read.xlsx(file.choose(),startRow = 2)
 
 
 
